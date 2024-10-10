@@ -1,7 +1,7 @@
 .btn {
     --btn-bg-color: var(--text-color-primary);
     --btn-color: var(--bg-color);
-    border: none;
+    border: 0;
     background-color: transparent; 
 
     display: flex;
@@ -16,7 +16,7 @@
     cursor: pointer;
 
     background: var(--btn-bg-color);
-    color: var(--btn-bg-color);
+    color: var(--btn-color);
 }  
  
 .btn:hover {
@@ -69,10 +69,10 @@
 @media (width >= 80em) { 
     .btn-sm {
         padding: .75rem 1.5rem;
-        font-size: var(--fs-base);
+        font-size: var(--fs-base); 
     }
     .btn-md {
         padding: 1rem 2rem;
-        font-size: 1.125rem;
+        font-size: 1.125rem; 
     } 
 }
